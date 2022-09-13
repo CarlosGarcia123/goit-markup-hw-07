@@ -1,0 +1,179 @@
+/* Section Clients */
+.content__section-client {
+  height: 300px;
+  background: #ffffff;
+  padding-top: 40px;
+}
+
+.content__name-section {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-left: 27px;
+  margin-bottom: 50px;
+}
+
+.content__group-clients {
+  height: 92px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 24px;
+}
+
+.content__company-1:hover .content__client {
+  border: 1px solid #2196f3;
+}
+.content__company-1:hover .content__with-icon-company-1 {
+  background-image: url(../images/company-1-blue.svg);
+}
+
+.content__company-2:hover .content__client {
+  border: 1px solid #2196f3;
+}
+.content__company-2:hover .content__with-icon-company-2 {
+  background-image: url(../images/company-2-blue.svg);
+}
+
+.content__company-3:hover .content__client {
+  border: 1px solid #2196f3;
+}
+.content__company-3:hover .content__with-icon-company-3 {
+  background-image: url(../images/company-3-blue.svg);
+}
+
+.content__company-4:hover .content__client {
+  border: 1px solid #2196f3;
+}
+.content__company-4:hover .content__with-icon-company-4 {
+  background-image: url(../images/company-4-blue.svg);
+}
+
+.content__company-5:hover .content__client {
+  border: 1px solid #2196f3;
+}
+.content__company-5:hover .content__with-icon-company-5 {
+  background-image: url(../images/company-5-blue.svg);
+}
+
+.content__company-6:hover .content__client {
+  border: 1px solid #2196f3;
+}
+.content__company-6:hover .content__with-icon-company-6 {
+  background-image: url(../images/company-6-blue.svg);
+}
+
+.content__client {
+  width: 170px;
+  height: 92px;
+  left: 415px;
+  top: 2447px;
+  box-sizing: border-box;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.content__client-right {
+  margin-right: 31px;
+}
+
+.content__icon-client-1 {
+  display: inline-flex;
+  height: 60px;
+  width: 106px;
+  margin-left: 31px;
+  margin-right: 31px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.content__icon-client-2 {
+  display: inline-flex;
+  height: 60px;
+  width: 106px;
+  margin-left: 31px;
+  margin-right: 31px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.content__icon-client-3 {
+  display: inline-flex;
+  height: 60px;
+  width: 106px;
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.content__icon-client-4 {
+  display: inline-flex;
+  height: 60px;
+  width: 106px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.content__icon-client-5 {
+  display: inline-flex;
+  height: 60px;
+  width: 106px;
+  margin-left: 31px;
+  margin-right: 31px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.content__icon-client-6 {
+  display: inline-flex;
+  height: 60px;
+  width: 106px;
+  margin-left: 31px;
+  margin-right: 31px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.content__with-icon-company-1 {
+  background-image: url(../images/company-1.svg);
+}
+
+.content__with-icon-company-2 {
+  background-image: url(../images/company-2.svg);
+}
+
+.content__with-icon-company-3 {
+  background-image: url(../images/company-3.svg);
+}
+
+.content__with-icon-company-4 {
+  background-image: url(../images/company-4.svg);
+}
+
+.content__with-icon-company-5 {
+  background-image: url(../images/company-5.svg);
+}
+
+.content__with-icon-company-6 {
+  background-image: url(../images/company-6.svg);
+}/*# sourceMappingURL=section-client.css.map */

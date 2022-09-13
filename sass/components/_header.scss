@@ -1,0 +1,94 @@
+@import '../utils/variables.scss';
+/** HEADER */
+
+/** BLOCK MENU */
+.header__seccion-menu-2 {
+	height: 50px;
+	padding-right: 250px;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: baseline;
+	margin: 0;
+	border: 1px solid #ececec;
+}
+.header__menu-2 {
+	justify-content: flex-start;
+	width: 600px;
+	height: 50px;
+	padding-top: 9px;
+}
+
+a {
+	text-decoration: none;
+  }
+  
+.header__logo-color {
+	color: $brand-color;
+	font-family: "Raleway";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 31px;
+	letter-spacing: 0.03em;
+	margin-left: 100px;
+	&:hover {
+		color: #3259d2;
+	}
+}
+.header__menu-text {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.02em;
+	color: #212121;
+	&:hover {
+		color: $brand-color;
+	}
+}
+.header__menu-border {
+	&:hover {
+		padding-bottom: 12px;
+		border-bottom-style: solid;
+		border-bottom-color: $brand-color;
+	}
+}
+.header__menu-item1 {
+	margin-left: 70px;
+}
+.header__menu-item2 {
+	margin-left: 40px;
+}
+.header__menu-item3 {
+	margin-left: 40px;
+}
+
+/** BLOCK EMAIL */
+.header__email {
+	width: 500px;
+	align-items: baseline;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+.header__menu-email {
+	&:hover {
+		svg {
+			color: $brand-color;
+		}
+		span {
+			color: $brand-color;
+		}
+	}
+}
+.header__menu-item4 {
+	margin-right: 40px;
+}
+.header__number-color {
+	color: #757575;
+}

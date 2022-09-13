@@ -1,0 +1,67 @@
+/*Section Info*/
+.content__section-info {
+  height: 440px;
+}
+
+.content__name-section {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-left: 27px;
+  margin-bottom: 50px;
+}
+
+.content__images-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 50px;
+}
+
+.content__image-item {
+  width: 370px;
+  height: 294px;
+  margin-right: 22px;
+}
+
+.content__image-lap {
+  background-image: url(../images/portatil.jpg);
+  background-size: cover;
+}
+
+.content__image-phone {
+  background-image: url(../images/celular.jpg);
+  background-size: cover;
+}
+
+.content__image-tablet {
+  background-image: url(../images/tablet.jpg);
+  background-size: cover;
+}
+
+.content__description {
+  width: 369px;
+  height: 55px;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  background: rgba(47, 48, 58, 0.8);
+  margin-top: 239px;
+}
+
+.content__margin-text {
+  width: 370px;
+  height: 55px;
+  padding-top: 20px;
+}/*# sourceMappingURL=section-info.css.map */

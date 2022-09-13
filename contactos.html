@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+
+    <title>HTML</title>
+    <link
+      rel="stylesheet"
+      href="-css/modern-normalize-main/modern-normalize.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/eb6088df41.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container-3">
+      <header class="header">
+        <div class="header__seccion-menu-2">
+          <nav class="header__menu-2">
+            <a class="header__logo-color" href="index.html">WebStudio</a>
+            <a class="header__menu-text header__menu-border header__menu-item1" href="index.html">Estudio</a>
+            <a class="header__menu-text header__menu-border header__menu-item2" href="portfolio.html">Portafolio</a>
+            <a class="header__menu-text header__menu-border header__menu-item3" href="contactos.html">Contactos</a>
+          </nav>
+          <div class="header__email">
+            <div class="header__menu-email header__menu-text header__menu-border  header__menu-item4">
+              <svg width="16" class="header__menu-text header__number-color" height="12" viewBox="0 0 16 12" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.5 0H1.50001C0.672854 0 0 0.672853 0 1.50001V10.5C0 11.3271 0.672854 12 1.50001 12H14.5C15.3271 12 16 11.3271 16 10.5V1.50001C16 0.672853 15.3271 0 14.5 0ZM14.5 0.999994C14.5679 0.999994 14.6325 1.01409 14.6916 1.0387L8 6.83838L1.30833 1.0387C1.36742 1.01412 1.43204 0.999994 1.49998 0.999994H14.5ZM14.5 11H1.50001C1.22414 11 0.999996 10.7759 0.999996 10.5V2.09521L7.67236 7.87792C7.76661 7.95944 7.8833 7.99999 8 7.99999C8.1167 7.99999 8.23339 7.95948 8.32764 7.87792L15 2.09521V10.5C15 10.7759 14.7759 11 14.5 11Z" fill="currentColor"/>
+                </svg>&nbsp <span class="header__menu-text header__number-color">info@devstudio.com</span>
+            </div>
+            <div class="header__menu-email header__menu-text header__menu-border header__number-color">
+              <svg width="10" class="header__menu-text header__number-color" height="16" viewBox="0 0 10 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8.5 0H1.5C0.672848 0 0 0.672848 0 1.5V14.5C0 15.3271 0.672848 16 1.5 16H8.5C9.32715 16 10 15.3271 10 14.5V1.5C10 0.672848 9.32715 0 8.5 0ZM1.5 1H8.5C8.77588 1 9 1.22412 9 1.5V12H1V1.5C1 1.22412 1.22412 1 1.5 1ZM8.5 15H1.5C1.22412 15 1 14.7759 1 14.5V13H9V14.5C9 14.7759 8.77588 15 8.5 15Z" fill="currentColor"/>
+                </svg>&nbsp <span class="header__menu-text header__number-color">+52 55 5529 6000</span>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="content">
+        <section class="content__seccion-form">
+          <form class="content__form" name="contacts" autocomplete="off">
+            <div class="content__container-input">
+              <h2 class="content__titulo">
+                Deje sus datos, nos contactaremos con usted
+              </h2>
+              <label for="fname">Nombre</label><br />
+              <input
+                class="content__form-input content__icon-user"
+                name="nombre"
+                type="text"
+                required
+              /><br />
+              <label for="fname">Teléfono</label><br />
+              <input
+                class="content__form-input content__icon-phone"
+                name="telefono"
+                type="tel"
+                required
+              /><br />
+
+              <label for="fname">E-mail</label><br />
+              <input
+                class="content__form-input content__icon-message"
+                name="email"
+                type="email"
+                required
+              /><br />
+
+              <label class="content__form-label" for="mensaje">Comentarios</label><br />
+              <textarea
+                class="content__form-text"
+                id="mensaje"
+                name="comentarios"
+                placeholder="Introduzca el texto"
+              ></textarea
+              ><br />
+
+              <input
+                class="content__form-check"
+                type="checkbox"
+                name="validacion"
+                value="De Acuerdo"
+                required
+              />
+              <label class="content__form-validation" for="mensaje"
+                >Estoy de acuerdo con el boletín informativo y acepto los
+                <span class="content__salt">Términos y Condiciones</span></label
+              ><br />
+
+              <button class="content__button-send" type="submit">
+                <span>Enviar</span>
+              </button>
+            </div>
+          </form>
+        </section>
+      </main>
+      <footer class="section-footer">
+        <address class="section-footer__contact-2">
+          <a class="section-footer__logo-footer" href="index.html">WebStudio</a> <br />
+          Calz. Ticomán 500, Ciudad de<br />
+          México, CDMX, México<br />
+          <spam
+            >info@example.com <br />
+            +52 55 5529 6000</spam
+          >
+        </address>
+
+        <address class="section-footer__icons">
+          <p>ENCUENTRENOS EN</p>
+          <div class="section-footer__group-icons">
+            <div class="section-footer__circulo">
+              <i
+                    class="fa-brands fa-instagram small-instagram section-footer__fa-margin-in"
+                  ></i>
+            </div>
+            <div class="section-footer__circulo">
+              <i class="fa-brands fa-twitter small-twitter section-footer__fa-margin-tw"></i>
+            </div>
+            <div class="section-footer__circulo">
+              <i
+                    class="fa-brands fa-facebook-f small-facebook section-footer__fa-margin-fa"
+                  ></i>
+            </div>
+            <div class="section-footer__circulo">
+              <i
+                    class="fa-brands fa-linkedin-in small-linkedin section-footer__fa-margin-li"
+                  ></i>
+            </div>
+          </div>
+        </address>
+
+        <address class="section-footer__bulletin">
+          <form class="section-footer__form-2" name="form bulletin" autocomplete="off">
+            <p>SUSCRÍBASE AL BOLETÍN INFORMATIVO</p><br />
+            <div class="section-footer__form-bulletin">
+              
+              <input
+                class="section-footer__form-input-email"
+                name="email"
+                type="email"
+                placeholder="Correo electrónico"
+                required
+              />
+  
+              <button class="section-footer__button-bulletin section-footer__icon-plane" type="submit">
+                <span>Suscríbase</span>
+              </button>
+  
+            </div>
+        </address>
+      </footer>
+    </div>
+  </body>
+</html>

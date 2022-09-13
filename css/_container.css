@@ -1,0 +1,26 @@
+/* Container Estudy */
+.container {
+  position: absolute;
+  width: 1600px;
+  height: 2078px;
+  left: 0px;
+  right: 0px;
+}
+
+/* Container Briefcase */
+.container-2 {
+  position: absolute;
+  width: 1600px;
+  height: 1800px;
+  left: 0px;
+  right: 0px;
+}
+
+/* Container Contacts */
+.container-3 {
+  position: absolute;
+  width: 1600px;
+  height: 998px;
+  left: 0px;
+  right: 0px;
+}/*# sourceMappingURL=container.css.map */

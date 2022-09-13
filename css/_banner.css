@@ -1,0 +1,52 @@
+/*BANNER*/
+.button-color, .content__color-button {
+  background: #2196f3;
+  color: #fff;
+}
+.button-color:hover, .content__color-button:hover {
+  background: #1976d2;
+  color: #fff;
+}
+.content__background {
+  background-image: url(../images/working.jpg);
+  height: 560px;
+  width: 1600px;
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  display: inline-block;
+}
+.content__background::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1599px;
+  height: 560px;
+  background: rgba(47, 48, 58, 0.4);
+  z-index: -1;
+}
+
+.content__big-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding-top: 180px;
+  color: #ffffff;
+}
+
+.content__color-button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  width: 261px;
+  height: 50px;
+  border: none;
+}/*# sourceMappingURL=banner.css.map */
